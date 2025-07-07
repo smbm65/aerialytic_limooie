@@ -1,0 +1,21 @@
+# Ignore Python cache and virtual environments 
+__pycache__/ 
+venv/ 
+.env 
+ 
+# Ignore log files 
+*.log 
+train_log.txt 
+log.txt 
+ 
+# Ignore generated plots and data arrays we found in cpk folder 
+*.png 
+*.npy 
+ 
+# Ignore model-specific datasets and outputs 
+transformer_edge_classificer/dataset/ 
+transformer_edge_classificer/plots/ 
+
+transformer_edge_classificer_refiner/refiner_dataset/ 
+transformer_edge_classificer_refiner/refiner_plots/ 
+transformer_edge_classificer_refiner/prediction_json_outputs/ 
